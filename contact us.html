@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        first website
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="index.html">home |</a>
+    <a href="news.html">news |</a>
+    <a href="services.html">services |</a>
+    <a href="about us.html">about us | </a>
+    <a href="contact us.html">contact us </a>
+   
+    <h1>
+        Contact us
+    </h1>
+    <div class="form-container">
+    
+    <form action="/submit-form" method="post">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+        <br>
+      
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+        <br>
+      
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+      
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+        <br>
+      
+        <button type="submit">Submit</button>
+      </form>
+
+    </div>
+
+
+</body>
+
+</html>
